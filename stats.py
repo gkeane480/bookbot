@@ -15,7 +15,7 @@ def sort_dictionary(unsorted):
     sorted = []
     for entry in unsorted:
         sorted.append({'character': entry, 'count': unsorted[entry]})
-        sorted.sort(reverse=True, key=sort_on)
+    sorted.sort(reverse=True, key=sort_on)
     return sorted
 
 def sort_on(dict):
